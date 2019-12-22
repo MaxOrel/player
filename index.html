@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="video">
+            <div class="video__container">
+                <div class="video__player">
+                    <video id="player" poster="./img/player/cover.png">
+                        <source src="./src/video.mp4" type="video/mp4">
+                    </video>
+                    <img src="./img/player/Play_white.png" alt="" class="play video__player-img">
+                </div>
+                <div class="video__toolbar">
+                    <div class="duration">
+                        <img src="./img/player/Play_gray.png" alt="" class="play duration__img">
+                        <input type="range" class="duration__length" id="durationLevel">
+                    </div>
+                    <div class="sound">
+                        <img src="./img/player/Volum_gray.png" class="sound__mic" id="mic" alt="">
+                        <div class="sound__volume">
+                            <input type="range" class="duration__length duration__length--other" id="micLevel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

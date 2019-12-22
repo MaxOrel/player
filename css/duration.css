@@ -1,0 +1,36 @@
+.duration {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.duration__img {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.duration__length {
+    width: 100%;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #626262;
+    -webkit-appearance: none;/*Override default CSS styles*/
+    appearance: none;   
+    outline: none;
+}
+
+.duration__length--other{
+    width: 58px;
+    height: 4px;
+}
+
+.duration__length::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    background: #626262;    
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;    
+}

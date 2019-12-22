@@ -1,0 +1,14 @@
+.sound {
+    display: flex;
+    align-items: center;
+    margin:0 15px;
+}
+
+.sound__mic {
+    cursor: pointer;
+}
+
+.sound__volume {
+    margin-left: 10px;   
+    margin-top: -5px; 
+}
